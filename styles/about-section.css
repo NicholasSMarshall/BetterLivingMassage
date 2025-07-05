@@ -10,6 +10,8 @@
   line-height: 1.6;
   height: fit-content;
   margin-bottom: -18%;
+
+  background-attachment: fixed;
 }
 
 .about-paragraph-0{

@@ -12,6 +12,8 @@
   display: flex;
   align-items: center;
   justify-content: right;
+
+  background-attachment: fixed;
 }
 
 .benefits-text-section{
