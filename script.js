@@ -98,3 +98,13 @@ function faqQuestions(){
         });
     }
 }
+
+window.addEventListener('DOMContentLoaded', buttonChecker);
+
+function activatePopup(){
+    document.getElementById("contact-popup").setAttribute("class", "contact-popup-background")
+}
+
+function deactivatePopup(){
+    document.getElementById("contact-popup").setAttribute("class", "blank")
+}
