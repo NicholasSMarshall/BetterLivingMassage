@@ -3,8 +3,7 @@
   height: fit-content;
   margin-top: 0px;
   margin-bottom: -6%;
-  padding-top: 25px;
-  padding-bottom: 5%;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,6 +47,8 @@
 @media (max-aspect-ratio: 1/1){
   .details-body{
     flex-direction: column;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
   }
   .details-paragraph-body{
     width: 80vw;
