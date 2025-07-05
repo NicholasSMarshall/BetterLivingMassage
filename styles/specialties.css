@@ -153,4 +153,12 @@
   .specialty-paragraph-right{
     width: 90%;
   }
+  .specialty-picture-right{
+    height: 40vh;
+    width: 40vh;
+  }
+  .specialty-picture-left{
+    height: 40vh;
+    width: 40vh;
+  }
 }
