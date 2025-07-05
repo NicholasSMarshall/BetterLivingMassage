@@ -1,0 +1,115 @@
+.reviews-intro{
+  background: url("../images/stones-backgroud.jpg");
+  height: fit-content;
+  width: 100%;
+  font-size: clamp(2px, 5vh, 70px);
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.reviews-paragraph{
+  margin: 15vh 5vh 15vh 5vh;
+  padding: 5vh;
+  border-radius: 5vh;
+  background-color: rgba(249, 226, 254, .7);
+}
+
+.reviews-body{
+  width: 100%;
+  height: fit-content;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-content{
+  height: fit-content;
+}
+
+.star-tray{
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+  padding-bottom: 1vh;
+}
+
+.star-box{
+  height: 30px;
+  width: 30px;
+  padding: .1vw;
+}
+
+.star-image{
+  height: 100%;
+  width: 100%;
+}
+
+.arrow-box-left{
+  height: auto;
+  width: 10%;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, whitesmoke, lightgray);
+  margin-right: -.1vw;
+}
+
+.arrow-box-right{
+  height: auto;
+  width: 10%;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, whitesmoke, lightgray);
+  margin-left: -.1vw;
+}
+
+
+.arrow-image{
+  width: 50%;
+  height: auto;
+  transition: height .3s,
+  width .3s;
+}
+
+.arrow-image:hover{
+  width: 60%;
+  height: auto;
+  cursor: pointer;
+}
+
+.slider-wrapper {
+  width: 70vw;
+  max-width: 1200px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  height: fit-content;
+  background-color: lightgray;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  height: fit-content;
+}
+
+.review {
+  flex: 1 0 100%;
+  padding: 5vh 0 5vh 0;
+  box-sizing: border-box;
+  font-size: clamp(2px, 4vh, 45px);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  align-self: center;
+}

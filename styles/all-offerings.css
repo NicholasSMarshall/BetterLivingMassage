@@ -1,0 +1,43 @@
+.top-offerings-box{
+  display: flex;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  height: fit-content;
+  width: auto;
+  background-image: url("../images/field-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.top-offerings{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  padding: 2vw;
+  background-color: rgba(249, 226, 254, .7);
+  height: fit-content;
+  width: 55vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.top-offerings-header{
+  font-size: clamp(2px, 5vh, 70px);
+  color: rgb(55, 73, 195);
+  text-align: center;
+  padding-bottom: 3vh;
+}
+
+.top-offerings-paragraph{
+  font-size: clamp(1px, 4vh, 55px);
+}
+
+@media (max-aspect-ratio: 1/1){
+  .top-offerings{
+    width: 86vw;
+    margin-left: 5vw;
+  }
+}

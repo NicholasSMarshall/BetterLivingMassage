@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-popup-background{
+  position: fixed;
+  background-color: rgb(0,0,0,.7);
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+.blank{
+  display: none;
+}
+
+.contact-popup{
+  position: fixed;
+  top: 25vh;
+  bottom: 25vh;
+  left: 15vw;
+  right: 15vw;
+  background: radial-gradient(rgb(147, 147, 147), rgb(41, 88, 52));
+  z-index: 2;
+  border-radius: 2vw;
+  padding: 3vh;
+  font-size: clamp(1px, 4vw, 40px);
+  line-height: 10vh;
+  color: white;
+}
+
+.close-popup{
+  display: flex;
+  height: 0;
+  justify-content: right;
+}
+
+.x-icon-box{
+  display: flex;
+  background-color: white;
+  height: 6vw;
+  width: 6vw;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+  border-radius: 5vh;
+  border-width: .5vh;
+  border-style: solid;
+  transition: height .3s,
+    width .3s,
+    padding .3s,
+    background-color .3s;
+}
+
+.x-icon-box:hover{
+  height: 8vw;
+  width: 8vw;
+  padding: 0;
+  cursor: pointer;
+  background-color: rgb(176, 159, 180);
+}
+
+.x-icon{
+  height: 85%;
+  width: 85%;
+}
+
+.popup-clickable{
+  transition: background-color .2s;
+  padding: 2vh;
+  border-radius: 4vh;
+}
+
+.popup-clickable:hover{
+  background-color: rgba(176, 159, 180, .7);
+  cursor: pointer;
+}

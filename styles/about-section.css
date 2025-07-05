@@ -1,0 +1,53 @@
+.about-section{
+  display: block;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.429), rgba(255, 255, 255, 0.083)),
+    url("../images/oil-background.jpg");
+  background-size: cover;
+  padding-top: 5vh;
+  padding-left: 5vw;
+  padding-bottom: 25vh;
+  line-height: 1.6;
+  height: fit-content;
+  margin-bottom: -18%;
+}
+
+.about-paragraph-0{
+  margin-top: 10%;
+  font-size: clamp(2px, 6vh, 100px);
+  color: white;
+}
+
+.about-paragraph-1{
+  font-size: clamp(1px, 5vh, 60px);
+  color: white;
+}
+
+.about-contact-button{
+  background-color: rgb(48, 104, 48);
+  height: fit-content;
+  width: fit-content;
+  padding: 1vh;
+  border-width: 1px;
+  border-radius: 12vh;
+  border-style: solid;
+  border-color:black;
+  box-shadow: 0px 0px 3px 1px white;
+  text-align: center;
+  font-size: clamp(2px, 4vh, 50px);
+  margin-top: 2vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color .2s,
+  color .2s;
+  position:absolute;
+  z-index: 1;
+}
+
+.about-contact-button:hover{
+  cursor: pointer;
+  background-color: white;
+  color:black;
+}

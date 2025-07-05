@@ -1,0 +1,36 @@
+.benefits-body{
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+    url("../images/hot-stone.jpg");
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+  margin-top: -15vw;
+  margin-bottom: -18vw;
+  padding-bottom: 25vh;
+  padding-top: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.benefits-text-section{
+  color:rgb(0, 0, 0);
+  width: 70vw;
+  margin-right: 5vw;
+  background-color: rgba(54, 164, 170, 0.787);
+  border-radius: 3vw;
+  padding: 2vw;
+}
+
+.benefits-text-0{
+  font-size: clamp(1px, 5vh, 60px);
+  margin-bottom: 1vw;
+  color: white;
+}
+
+.benefits-text-1{
+  font-size: clamp(1px, 4vh, 50px);
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.69);
+}

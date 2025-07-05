@@ -1,0 +1,56 @@
+.details-body{
+  background: linear-gradient(to left, rgb(170, 222, 170), rgb(60, 101, 60));
+  height: fit-content;
+  margin-top: 0px;
+  margin-bottom: -6%;
+  padding-top: 25px;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-paragraph-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2vh;
+  width: 50vw;
+}
+
+.deborah-box{
+  width: 40vh;
+  height: 40vh;
+  margin: 5vh;
+  max-height: 600px;
+  max-width: 600px;
+  align-items: center;
+}
+
+.deborah{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.details-paragraph-0{
+  color: rgb(168, 217, 216);
+  font-size: clamp(3px, 5vh, 70px);
+  padding-bottom: 3%;
+}
+
+.details-paragraph-1{
+  color: white;
+  font-size: clamp(1px, 4vh, 60px);
+}
+
+@media (max-aspect-ratio: 1/1){
+  .details-body{
+    flex-direction: column;
+  }
+  .details-paragraph-body{
+    width: 80vw;
+  }
+
+}

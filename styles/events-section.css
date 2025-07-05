@@ -1,0 +1,85 @@
+.events-main{
+  background: linear-gradient(rgb(209, 238, 221), rgb(170, 222, 170));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -1%;
+  height: fit-content;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  flex-direction: row; /*CHANGE FOR MOBILE*/
+}
+
+.events-body-left{
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+}
+
+.events-body-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.events-title{
+  background-color:rgb(243, 112, 204);
+  height: fit-content;
+  width: 35vw;
+  padding: 1vh;
+  border-radius: 1vh;
+  max-height: 200px;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: clamp(2px, 6vh, 75px);
+  text-decoration: underline;
+}
+
+.events-paragraph{
+  background-color:rgb(243, 112, 204);
+  height: fit-content;
+  width: 100%;
+  padding: 1vh;
+  border-radius: 1vh;
+  margin: 3vw;
+  font-size: clamp(1px, 5vh, 50px);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.special-text{
+  color: rgb(171, 32, 169)
+}
+
+.chair-massage-box{
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  height: 30vh;
+  width: 30vh;
+  max-height: 700px;
+  max-width: 700px;
+  margin-top: 3vh;
+}
+
+.chair-massage-image{
+  width: 90%;
+  height: 90%;
+  background-color:rgba(255, 255, 255, 0.56);
+  border-radius: 10%;
+}
+
+@media (max-aspect-ratio: 1/1){
+  .events-main{
+    flex-direction: column;
+  }
+}

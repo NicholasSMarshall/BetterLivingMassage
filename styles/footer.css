@@ -1,0 +1,139 @@
+.footer-body{
+  background-color: rgb(237, 237, 237);
+}
+
+.footer-picture-tray{
+  display: flex;
+  height: fit-content;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-picture-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vw;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.footer-picture{
+  width: 100%;
+  height: 100%;
+  transition: width .5s,
+  height .5s;
+}
+
+.bottom-tray{
+  width: 100%;
+  height: fit-content;
+  padding-top: 4vh;
+  padding-bottom: 3vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(73, 124, 84);
+  color: rgb(255, 255, 255);
+  flex-direction: row;
+}
+
+.bottom-box{
+  display: flex;
+  justify-content: left;
+  width: 28%;
+  height: 100%;
+  font-size: clamp(1px, 3vh, 40px);
+}
+
+.bottom-left{
+  line-height: 4vh;
+}
+
+.bottom-phone{
+  transition: text-decoration .5s;
+}
+
+.bottom-phone:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottom-email{
+  transition: text-decoration .5s;
+}
+
+.bottom-email:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottom-address{
+  transition: text-decoration .5s;
+}
+
+.bottom-address:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottom-center{
+  line-height: 3vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+
+.bottom-right{
+  line-height: 3vh;
+}
+
+.enlarged-footer{
+  font-size: clamp(2px, 4vh, 65px);
+  text-decoration: underline;
+}
+
+.payment-tray{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  margin-top: 1vh;
+}
+
+.payment-box{
+  height: 8vh;
+  width: 8vh;
+  max-height: 200px;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-image{
+  height: 85%;
+  width: 85%;
+}
+
+@media (max-aspect-ratio: 20/13){
+  .bottom-center{
+    padding: 0;
+  }
+  .bottom-tray{
+    flex-direction: column;
+    align-items: center;
+  }
+  .bottom-box{
+    width: 90%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+}
+
+@media (max-aspect-ratio: 1/1){
+  .footer-picture-box{
+    display: none;
+  }
+}

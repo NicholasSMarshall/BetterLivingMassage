@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+  <link rel = "stylesheet" href = "styles/header.css">
+  <link rel = "stylesheet" href = "styles/main-style.css">
+  <link rel = "stylesheet" href = "styles/footer.css">
+  <link rel = "stylesheet" href = "styles/reviews.css">
+  <link rel = "stylesheet" href = "styles/faq-section.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <head>
+    <title>Better Living Massage Therapy</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class = "complete-header">
+      <div class = "header-body">
+        <div class = "header-left">
+          <a class = "facebook-icon-box" href="https://www.facebook.com/people/Better-Living-Massage-Therapy/100094636433968/" target="_blank" rel="noopener noreferrer">
+            <img src = "images/facebook-icon.png" class = "icon-image" title = "facebook icon">
+          </a>
+          <a class = "clickable-address" 
+            href="https://www.google.com/maps/place/Better+Living+Massage+Therapy/@33.5309417,-101.9185631,17z/data=!3m1!4b1!4m6!3m5!1s0x86fe73135c5537c1:0x346b1ab0769837b1!8m2!3d33.5309417!4d-101.9159882!16s%2Fg%2F11vpsqnfwx?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D" 
+            target="_blank" rel="noopener noreferrer">
+            5121 B 69th Street #719 Lubbock, TX 79424
+          </a>
+        </div>
+        <div class= "header-center">
+          <div class = logo-box>
+            <img src = "images/logo.png" class = "logo-image" title = "logo">
+          </div>
+        </div>
+        <div class = "header-right">
+            <a class = "contact-button" href = "tel:(806) 441-8126">
+              <div class = "contact-icon-box">
+                <img src = "images/call-icon.jpg" class = "contact-icon" title = "phone icon">
+              </div>
+              <div style = "flex: 10">
+                (806) 441-8126
+              </div>
+            </a>
+        </div>
+      </div>
+      <div class = "sub-header">
+        <div class = "header-button" onclick="location.href='home.html'" id = "home-button">
+          Home
+        </div>
+        <div class = "header-button" onclick="location.href='services.html'" id = "services-button">
+          Massage Services
+        </div>
+        <div class = "header-button" onclick="location.href='reviews.html'" id = "reviews-button">
+          Reviews and FAQ
+        </div>
+      </div>
+    </div>
+
+    <div class = "reviews-intro">
+      <div class = "reviews-paragraph">
+        At Better Living Massage Therapy, we’re committed to providing an experience that leaves you 
+        feeling relaxed, refreshed, and truly cared for — and our clients agree. See what they’re saying below!
+      </div>
+    </div>
+
+    <div class = "reviews-body">
+      <div class = "arrow-box-left">
+        <img src = "images/arrow-left.png" class = "arrow-image" onclick = "sliderControls.prevSlide(sliderControls.getCurrentIndex());" id = "prevButton" title = "left arrow icon">
+      </div>
+      <div class = "reviews-content">
+        <div class="slider-wrapper">
+          <div class="slider" id="slider">
+            <div class = "review">
+              <div class = "star-tray">
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+              </div>
+              <div>
+              Deborah is amazing! I have had a few massages from her and she is great at finding spots 
+              that need to be worked on and getting them feeling better. Whether you're an athlete or 
+              have chronic pain or just need to be pampered, definitely go see her! I highly recommend 
+              adding the hot stones to your session as well.
+              </div>
+              <div>
+                -Genesis K.
+              </div>
+            </div>
+            <div class = "review">
+              <div class = "star-tray">
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+              </div>
+              <div>
+                Deborah is definitely gifted and passionate at what she does. Her office environment is very peaceful and professional. 
+                I came to my appointment very tense and several areas of my body were very stiff. I left feeling very relaxed and my body felt 20 years younger!
+              </div>
+              <div>
+                -Greg G
+              </div>
+            </div>
+            <div class = "review">
+              <div class = "star-tray">
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+              </div>
+              <div>
+                This was the absolute BEST experience I have ever had for massage therapy.  The Stones were awesome and the suction cups do exactly what is needed I feel great!
+                Thank you Deborah I will be back
+              </div>
+              <div>
+                -Justin P
+              </div>
+            </div>
+            <div class = "review">
+              <div class = "star-tray">
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+                <div class = "star-box">
+                  <img src = "images/star.png" class = "star-image" title = "star icon">
+                </div>
+              </div>
+              <div>
+                Best massage ever! Can't wait to go back and get the hot stone and cupping massage next!!!!
+              </div>
+              <div>
+                -Terri A
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "arrow-box-right">
+        <img src = "images/arrow-right.png" class = "arrow-image" onclick = "sliderControls.nextSlide(sliderControls.getCurrentIndex());" id = "nextButton" title = "right arrow icon">
+      </div>
+    </div>
+
+
+    <div class = "faq-section">
+      <div class = "faq-title">
+        Frequently Asked Questions
+      </div>
+      <div class = "question">
+        <div class = "arrow">
+        </div>
+        Do you sell gift cards or gift vouchers?
+      </div>
+      <div class = "answer">
+        Absolutely! A massage makes a wonderful gift for a friend or loved one, 
+        and we offer gift vouchers to make giving the perfect experience easy.
+      </div>
+      <div class = "question">
+        <div class = "arrow">
+        </div>
+        Do you offer seasonal discounts or other special deals?
+      </div>
+      <div class = "answer">
+        Because we consistently provide high-quality massage experiences at some 
+        of the most affordable prices in Lubbock, the only discount we offer is $10 off
+        for military and first responders.
+      </div>
+      <div class = "question">
+        <div class = "arrow">
+        </div>
+        Is this a better option for relief than seeing a chiropractor?
+      </div>
+      <div class = "answer">
+        Massage therapy can be a better option for relief if your discomfort is rooted 
+        in muscle tension, stress, or soft tissue pain. It provides a relaxing, hands-on 
+        approach that targets the muscles directly to ease tightness and promote circulation. 
+        While chiropractic care focuses more on joint and spinal alignment, massage offers a 
+        gentler experience that's ideal for ongoing stress relief and muscular issues.
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div>
+      <div class = "footer-body">
+        <div class = "footer-picture-tray">
+          <div class = "footer-picture-box">
+            <img src = "images/oils.jpg" class = "footer-picture"  title = "oils">
+          </div>
+          <div class = "footer-picture-box">
+            <img src = "images/materials.jpg" class = "footer-picture"  title = "massage items">
+          </div>
+          <div class = "footer-picture-box">
+            <img src = "images/cupping.jpg" class = "footer-picture"  title = "cupping">
+          </div>
+        </div>
+        <div class = "bottom-tray">
+          <div class = "bottom-box">
+            <div class = "bottom-left">
+              <div>
+                <span class = "enlarged-footer">Contact Me!</span>
+              </div>
+              <div>
+                Phone: 
+                <a class = "bottom-phone" href = "tel:(806) 441-8126">
+                  (806) 441-8126
+                </a>
+              </div>
+              <div>
+                Email: 
+                <a class = "bottom-email" href = "mailto:info@betterlivingmassage.com">
+                  info@betterlivingmassage.com
+                </a>
+              </div>
+              <div>
+                Address: 
+                <a class="bottom-address" 
+                  href="https://www.google.com/maps/place/Better+Living+Massage+Therapy/@33.5309417,-101.9185631,17z/data=!3m1!4b1!4m6!3m5!1s0x86fe73135c5537c1:0x346b1ab0769837b1!8m2!3d33.5309417!4d-101.9159882!16s%2Fg%2F11vpsqnfwx?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D" 
+                  target="_blank" 
+                  rel="noopener noreferrer">
+                  5121 B 69th Street #719, Lubbock, TX 79424
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class = "bottom-box">
+            <div class = bottom-center>
+              <span class = "enlarged-footer">Business Hours</span>
+              <p>Monday – Saturday: By Appointment Only</p>
+              <p>Please contact us via phone or email to schedule an appointment.</p>
+            </div>
+            <div>
+
+            </div>
+          </div>
+          <div class = "bottom-box">
+            <div class = "bottom-right">
+              <span class = "enlarged-footer">Certifications</span>
+              <p>Certifications: Licensed Massage Therapist</p>
+              <p>Memberships: AMTA</p>
+              <span class = "enlarged-footer">We Accept</span>
+              <div class = "payment-tray">
+                <div class = "payment-box">
+                  <img src = "images/venmo-icon.png" class = "payment-image" title = "venmo icon">
+                </div>
+                <div class = "payment-box">
+                  <img src = "images/zelle-icon.png" class = "payment-image"  title = "zelle icon">
+                </div>
+                <div class = "payment-box">
+                  <img src = "images/checking-icon.jpg" class = "payment-image"  title = "checking book icon">
+                </div>
+                <div class = "payment-box">
+                  <img src = "images/cash-icon.png" class = "payment-image"  title = "cash icon">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src = "script.js">
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,207 @@
+.complete-header{
+  background: radial-gradient(circle, rgb(222, 222, 222), rgb(34, 101, 54));
+  justify-content: center;
+}
+
+.header-body{
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.header-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+  flex: 8;
+  order: 1;
+}
+
+.facebook-icon-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  max-height: 200px;
+  width: 7vh;
+  height: 7vh;
+  border-radius: 2vw;
+}
+
+.icon-image{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.icon-image:hover{
+  cursor: pointer;
+}
+
+.clickable-address{
+  text-decoration: underline;
+  color: white;
+  font-size: clamp(3px, 4vh, 40px);
+  height: fit-content;
+  margin: 1vh;
+  text-align: center;
+}
+
+.clickable-address:hover{
+  cursor: pointer;
+}
+
+
+
+.header-center{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  order: 2;
+  justify-content: center;
+}
+
+.logo-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  max-height: 500px;
+}
+
+.logo-image{
+  height: 100%;
+}
+
+
+
+.sub-header{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  margin-top: 10px;
+  max-height: 200px;
+  justify-content: center;
+  align-items: bottom;
+}
+
+.header-button{
+  display: flex;
+  width: 20%;
+  transition:
+  background-color .2s,
+  color .2s;
+  justify-content: center;
+  align-items: center;
+  color: Black;
+  font-size: clamp(3px, 4vh, 50px);
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.header-button:hover{
+  background-color:rgba(47, 113, 47, 0.5);
+  color:white;
+  cursor: pointer;
+}
+
+.active-header-button{
+  display: flex;
+  width: 20%;
+  transition:
+  background-color .2s,
+  color .2s;
+  justify-content: center;
+  align-items: center;
+  color: Black;
+  font-size: clamp(3px, 4vh, 45px);
+  text-align: center;
+  padding: 5px;
+  background-color:rgba(47, 113, 47, 0.5);
+  color:white;
+  cursor: pointer;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+
+.header-right{
+  display: flex;
+  flex: 8;
+  justify-content: center;
+  align-items: center;
+  order: 3;
+}
+
+.contact-button{
+  display: flex;
+  padding: 1vh;
+  margin: 1vh;
+  height: fit-content;
+  align-items: center;
+  max-height: 200px;
+  max-width: 800px;
+  width: 30vw;
+  background-color: rgb(48, 104, 48);
+  border-width: 2px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color:black;
+  box-shadow: 0px 0px 3px 1px white;
+  text-align: center;
+  font-size: clamp(3px, 4vh, 40px);
+  color: white;
+  transition: color .2s,
+  background-color .2s;
+}
+
+.contact-button:hover{
+  cursor:pointer;
+  background-color: rgb(252, 248, 252);
+  color: black;
+}
+
+.contact-icon-box{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.contact-icon{
+  width: 100%;
+}
+
+
+@media (max-aspect-ratio: 1/1){
+  .header-body{
+    flex-direction: column;
+  }
+
+  .header-center{
+    order: 1;
+  }
+  .header-left{
+    order: 2;
+  }
+  .active-header-button{
+    width: 30%;
+  }
+  .header-button{
+    width: 30%;
+  }
+  .contact-button{
+    width: 50%;
+  }
+}
