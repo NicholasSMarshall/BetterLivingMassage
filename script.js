@@ -4,7 +4,7 @@ let sliderControls;
 function buttonChecker() {
     const currentPage = window.location.pathname.split("/").pop();
 
-    if (currentPage === "index.html") {
+    if (currentPage === "index.html" || currentPage === "") {
         const homeButton = document.getElementById("home-button");
         if (homeButton) {
             homeButton.setAttribute("class", "active-header-button");
