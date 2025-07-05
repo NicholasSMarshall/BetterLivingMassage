@@ -85,3 +85,10 @@ a{
   background-color: rgba(176, 159, 180, .7);
   cursor: pointer;
 }
+
+@media (max-aspect-ratio: 1/1){
+  .contact-popup{
+    left: 0;
+    right: 0;
+  }
+}

@@ -36,13 +36,13 @@
 
 .details-paragraph-0{
   color: rgb(168, 217, 216);
-  font-size: clamp(3px, 5vh, 70px);
+  font-size: clamp(3px, 3.5vh, 50px);
   padding-bottom: 3%;
 }
 
 .details-paragraph-1{
   color: white;
-  font-size: clamp(1px, 4vh, 60px);
+  font-size: clamp(1px, 2.5vh, 40px);
 }
 
 @media (max-aspect-ratio: 1/1){

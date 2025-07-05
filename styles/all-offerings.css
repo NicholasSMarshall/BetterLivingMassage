@@ -25,14 +25,14 @@
 }
 
 .top-offerings-header{
-  font-size: clamp(2px, 5vh, 70px);
+  font-size: clamp(2px, 3.5vh, 50px);
   color: rgb(55, 73, 195);
   text-align: center;
   padding-bottom: 3vh;
 }
 
 .top-offerings-paragraph{
-  font-size: clamp(1px, 4vh, 55px);
+  font-size: clamp(1px, 2.5vh, 40px);
 }
 
 @media (max-aspect-ratio: 1/1){

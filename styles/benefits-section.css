@@ -24,13 +24,13 @@
 }
 
 .benefits-text-0{
-  font-size: clamp(1px, 5vh, 60px);
+  font-size: clamp(1px, 3.5vh, 45px);
   margin-bottom: 1vw;
   color: white;
 }
 
 .benefits-text-1{
-  font-size: clamp(1px, 4vh, 50px);
+  font-size: clamp(1px, 2vh, 30px);
   line-height: 1.2;
   color: rgba(0, 0, 0, 0.69);
 }

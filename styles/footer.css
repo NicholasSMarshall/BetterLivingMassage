@@ -46,7 +46,7 @@
   justify-content: left;
   width: 28%;
   height: 100%;
-  font-size: clamp(1px, 3vh, 40px);
+  font-size: clamp(1px, 2.5vh, 35px);
 }
 
 .bottom-left{
@@ -91,7 +91,7 @@
 }
 
 .enlarged-footer{
-  font-size: clamp(2px, 4vh, 65px);
+  font-size: clamp(2px, 3vh, 45px);
   text-decoration: underline;
 }
 

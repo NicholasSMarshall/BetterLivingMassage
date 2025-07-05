@@ -12,11 +12,11 @@
   justify-content: center;
   width: 100%;
   padding: 5vh 0 5vh 0;
-  font-size: clamp(2px, 5vh, 70px);
+  font-size: clamp(2px, 3vh, 50px);
 }
 
 .question{
-  font-size: clamp(1px, 4vh, 55px);
+  font-size: clamp(1px, 2.5vh, 40px);
   padding: 1vh;
   border-left: 3vw white solid;
   cursor: pointer;
@@ -54,5 +54,5 @@
 .answer-opened{
   padding: 1em 1em 2em 3.3em;
   height: fit-content;
-  font-size: clamp(1px, 3vh, 45px);
+  font-size: clamp(1px, 2.5vh, 35px);
 }
