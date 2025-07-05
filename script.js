@@ -98,3 +98,5 @@ function faqQuestions(){
         });
     }
 }
+
+window.addEventListener('DOMContentLoaded', buttonChecker);
