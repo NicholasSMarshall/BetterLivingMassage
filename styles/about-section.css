@@ -16,12 +16,12 @@
 
 .about-paragraph-0{
   margin-top: 10%;
-  font-size: clamp(1px, 4vh, 55px);
+  font-size: clamp(1px, 3.5vh, 50px);
   color: white;
 }
 
 .about-paragraph-1{
-  font-size: clamp(1px, 3vh, 40px);
+  font-size: clamp(1px, 2.8vh, 40px);
   color: white;
 }
 

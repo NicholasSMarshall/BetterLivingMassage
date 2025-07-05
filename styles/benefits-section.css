@@ -32,7 +32,7 @@
 }
 
 .benefits-text-1{
-  font-size: clamp(1px, 2vh, 30px);
+  font-size: clamp(1px, 2.5vh, 32px);
   line-height: 1.2;
   color: rgba(0, 0, 0, 0.69);
 }

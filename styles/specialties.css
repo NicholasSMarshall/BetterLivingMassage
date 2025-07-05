@@ -118,7 +118,7 @@
 
 .specialty-title{
   color: rgb(55, 73, 195);
-  font-size: clamp(2px, 2.5vh, 40px);
+  font-size: clamp(2px, 3vh, 40px);
   margin-bottom: 1vh;
 }
 

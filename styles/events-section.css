@@ -37,7 +37,7 @@
   align-items: center;
   display: flex;
   color: white;
-  font-size: clamp(2px, 3.5vh, 50px);
+  font-size: clamp(2px, 3vh, 45px);
   text-decoration: underline;
 }
 
@@ -48,7 +48,7 @@
   padding: 1vh;
   border-radius: 1vh;
   margin: 3vw;
-  font-size: clamp(1px, 2.5vh, 30px);
+  font-size: clamp(1px, 2.5vh, 32px);
   color: white;
   align-items: center;
   justify-content: center;

@@ -46,7 +46,7 @@
   justify-content: left;
   width: 28%;
   height: 100%;
-  font-size: clamp(1px, 2.5vh, 35px);
+  font-size: clamp(1px, 2.5vh, 32px);
 }
 
 .bottom-left{
