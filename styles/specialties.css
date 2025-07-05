@@ -72,7 +72,7 @@
   justify-content: center;
   align-items: center;
   height: fit-content;
-  padding-top: 10vh;
+  padding-top: 5vh;
   flex-direction: row;
   margin: 2.5vh 5vh 2.5vh 5vh;
 }
@@ -146,6 +146,7 @@
 @media (max-aspect-ratio: 1/1) {
   .specialty-wrap {
     flex-direction: column;
+    padding-top: 10vh;
   }
   .specialty-paragraph-left{
     width: 90%;
