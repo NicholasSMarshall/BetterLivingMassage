@@ -27,12 +27,22 @@
 
 .benefits-text-0{
   font-size: clamp(1px, 3.5vh, 45px);
-  margin-bottom: 1vw;
+  margin-bottom: 2vh;
   color: white;
 }
 
 .benefits-text-1{
-  font-size: clamp(1px, 2.5vh, 32px);
+  font-size: clamp(1px, 2.7vh, 35px);
   line-height: 1.2;
   color: rgba(0, 0, 0, 0.69);
+}
+
+@media (max-aspect-ratio: 1/1){
+  .benefits-text-section{
+    width: 90vw;
+  }
+  .benefits-body{
+    padding-top: 24vh;
+    padding-bottom: 24vh;
+  }
 }
