@@ -2,7 +2,7 @@
   background: url("../images/stones-backgroud.jpg");
   height: fit-content;
   width: 100%;
-  font-size: clamp(2px, 2.7vh, 40px);
+  font-size: clamp(2px, 2.7vh, 35px);
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 }
 
 .reviews-paragraph{
-  margin: 15vh 5vh 15vh 5vh;
+  margin: 15vh 10vw 15vh 10vw;
   padding: 5vh;
   border-radius: 5vh;
   background-color: rgba(249, 226, 254, .7);
@@ -105,7 +105,7 @@
   flex: 1 0 100%;
   padding: 5vh 0 5vh 0;
   box-sizing: border-box;
-  font-size: clamp(2px, 2.7vh, 32px);
+  font-size: clamp(2px, 2.5vh, 32px);
   text-align: center;
   display: flex;
   flex-direction: column;
