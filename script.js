@@ -1,36 +1,10 @@
-function buttonChecker(){
-    const currentPage = window.location.pathname.split("/").pop();
-    if (currentPage === "home.html"){
-        document.getElementById("home-button").setAttribute("class", "active-header-button")
-    }
-    else if(currentPage === "services.html"){
-        document.getElementById("services-button").setAttribute("class", "active-header-button")
-    }
-    else{
-        document.getElementById("reviews-button").setAttribute("class", "active-header-button")
-        let sliderControls = activeReviews();
-    }
-}
-
-function activatePopup(){
-    document.getElementById("contact-popup").setAttribute("class", "contact-popup-background")
-}
-
-function deactivatePopup(){
-    document.getElementById("contact-popup").setAttribute("class", "blank")
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-    buttonChecker();
-});
-
 let sliderControls;
 
 
 function buttonChecker() {
     const currentPage = window.location.pathname.split("/").pop();
 
-    if (currentPage === "home.html") {
+    if (currentPage === "index.html") {
         const homeButton = document.getElementById("home-button");
         if (homeButton) {
             homeButton.setAttribute("class", "active-header-button");
