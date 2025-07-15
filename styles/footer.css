@@ -142,6 +142,6 @@
     display: none;
   }
   .footer-picture-tray{
-    height: 3vh;
+    display: none;
   }
 }
