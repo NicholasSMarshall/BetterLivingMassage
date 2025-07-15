@@ -87,11 +87,12 @@
 }
 
 .bottom-right{
-  line-height: 1vh;
+  line-height: 3vh;
 }
 
 .bottom-right-box{
   margin-bottom: 4vh;
+  line-height: 3vh;
 }
 
 .enlarged-footer{
