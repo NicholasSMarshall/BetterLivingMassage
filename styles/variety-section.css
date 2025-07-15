@@ -15,13 +15,13 @@
 }
 
 .variety-paragraph-0{
-  font-size: clamp(1px, 3vh, 45px);
+  font-size: clamp(1.2px, 3.5vh, 45px);
   text-align: center;
   color: rgb(220, 181, 255);
 }
 
 .variety-paragraph-1{
-  font-size: clamp(1px, 2.5vh, 32px);
+  font-size: clamp(1px, 2.8vh, 35px);
   text-align: center;
   color: white;
   margin-top: 1vw;

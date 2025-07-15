@@ -87,12 +87,17 @@
 }
 
 .bottom-right{
-  line-height: 3vh;
+  line-height: 1vh;
+}
+
+.bottom-right-box{
+  margin-bottom: 4vh;
 }
 
 .enlarged-footer{
   font-size: clamp(2px, 3vh, 45px);
   text-decoration: underline;
+  margin-top: 3vh;
 }
 
 .payment-tray{
@@ -134,6 +139,9 @@
 
 @media (max-aspect-ratio: 1/1){
   .footer-picture-box{
+    display: none;
+  }
+  .footer-picture-tray{
     display: none;
   }
 }
