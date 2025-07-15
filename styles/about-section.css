@@ -11,12 +11,15 @@
   height: fit-content;
   margin-bottom: -18%;
 
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .about-paragraph-0{
   margin-top: 10%;
-  font-size: clamp(1px, 5.5vw, 80px);
+  font-size: clamp(1px, 7vw, 100px);
   color: rgb(168, 217, 216);
 }
 
@@ -52,4 +55,11 @@
   cursor: pointer;
   background-color: white;
   color:black;
+}
+
+@media(aspect-ratio < 1/1){
+  .about-paragraph-0{
+    margin-top: 20vh;
+    font-size: clamp(2px, 9vw, 90px);
+  }
 }

@@ -12,6 +12,7 @@
   background-position-y: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   border-image-outset: 0;
   border-image-repeat: stretch;
@@ -43,6 +44,7 @@
   background-position-y: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   border-image-outset: 0;
   border-image-repeat: stretch;
