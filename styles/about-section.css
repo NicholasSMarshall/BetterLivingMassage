@@ -61,4 +61,11 @@
     margin-top: 20vh;
     font-size: clamp(2px, 9vw, 90px);
   }
+
+  .about-section{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
 }

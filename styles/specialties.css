@@ -84,7 +84,7 @@
   justify-content: center;
   height:fit-content;
   font-size: clamp(1px, 3vh, 35px);
-  background-color: rgba(249, 226, 254, .7);
+  background-color: rgba(249, 226, 254, .8);
   color: black;
   margin-top: 18vh;
   margin-bottom: 10vh;
@@ -100,7 +100,7 @@
   justify-content: center;
   height:fit-content;
   font-size: clamp(1px, 3vh, 35px);
-  background-color: rgba(249, 226, 254, .7);
+  background-color: rgba(249, 226, 254, .8);
   color: black;
   margin-bottom: 3vh;
   width: 80vw;
@@ -123,7 +123,7 @@
 .specialty-picture-left{
   display: flex;
   height: 50vh;
-  background-color: rgba(249, 226, 254, .7);
+  background-color: rgba(249, 226, 254, .8);
   width: 50vh;
   border-radius: 25vh;
   margin: 5vh;
@@ -135,7 +135,7 @@
   display: flex;
   justify-content: center;
   height: 50vh;
-  background-color: rgba(249, 226, 254, .7);
+  background-color: rgba(249, 226, 254, .8);
   width: 50vh;
   border-radius: 25vh;
   margin: 5vh;
@@ -146,7 +146,7 @@
 .specialty-paragraph-left{
   height: fit-content;
   width: 55vw;
-  background-color: rgba(249, 226, 254, .7);
+  background-color: rgba(249, 226, 254, .8);
   border-radius: 5vh;
   padding: 3vh;
 }
@@ -154,7 +154,7 @@
 .specialty-paragraph-right{
   height: fit-content;
   width: 55vw;
-  background-color: rgba(249, 226, 254, .7);
+  background-color: rgba(249, 226, 254, .8);
   border-radius: 5vh;
   padding: 3vh;
 }
@@ -208,6 +208,22 @@
   .specialty-divider-0{
     margin-top: -28vh;
     margin-bottom: -1vh;
+  }
+  .specialty-body-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.429), rgba(0, 0, 0, 0.083)),
+      url("../images/trees.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  .specialty-body-0 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.429), rgba(0, 0, 0, 0.083)),
+      url("../images/cliff.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
   }
   
 }

@@ -114,3 +114,12 @@
   height: fit-content;
   align-self: center;
 }
+
+@media(aspect-ratio < 1/1){
+  .reviews-intro{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}
