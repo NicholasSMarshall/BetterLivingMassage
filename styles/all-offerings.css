@@ -40,4 +40,10 @@
     width: 86vw;
     margin-left: 5vw;
   }
+  .top-offerings-box{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
 }
